@@ -1,9 +1,9 @@
 /**
-         *
-         * @param {EventTarget} target
-         * @param {string} eventName
-         * @returns {ReadableStream}
-         */
+ *
+ * @param {EventTarget} target
+ * @param {string} eventName
+ * @returns {ReadableStream}
+ */
 const fromEvent = (target, eventName) => {
     let _listener
     return new ReadableStream({
